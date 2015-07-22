@@ -65,7 +65,7 @@
             _badMoneyLabel.text = model.contentStr.BadAmount;
             _badMoneyPercentLabel.text = model.contentStr.BadRates;
         } else {
-            
+            NSLog(@"12312312312312");
         }
         
     } withAnimation:YES];
