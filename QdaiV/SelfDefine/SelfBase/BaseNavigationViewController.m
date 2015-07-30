@@ -20,8 +20,8 @@
     if (self) {
        
         self.navigationBar.translucent = NO;
-        [[UINavigationBar appearance] setBackgroundColor:QDAI_THEME_COLOR];
-        [[UINavigationBar appearance] setBarTintColor:QDAI_THEME_COLOR];
+        [[UINavigationBar appearance] setBackgroundColor:APP_THEME_COLOR];
+        [[UINavigationBar appearance] setBarTintColor:APP_THEME_COLOR];
         [[UINavigationBar appearance] setTitleTextAttributes:@{NSForegroundColorAttributeName:[UIColor whiteColor]}];
         [[UINavigationBar appearance] setBackgroundImage:[[UIImage alloc] init] forBarMetrics:UIBarMetricsDefault];
         [[UINavigationBar appearance] setShadowImage:[[UIImage alloc] init]];

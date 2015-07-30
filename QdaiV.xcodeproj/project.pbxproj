@@ -48,6 +48,16 @@
 		42229EE71B5E22E500304D95 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 42229EE61B5E22E500304D95 /* MJExtensionConfig.m */; };
 		429C311A1B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C31191B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.m */; };
 		429C311D1B5CDAE000F41D0E /* sepatorLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C311C1B5CDAE000F41D0E /* sepatorLine.m */; };
+		429C93871B5F3A6700DC7D7F /* MyQdaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C93861B5F3A6700DC7D7F /* MyQdaiViewController.m */; };
+		429C93C01B5F5F7F00DC7D7F /* QdaiHomePageModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C93BF1B5F5F7F00DC7D7F /* QdaiHomePageModel.m */; };
+		429C93D71B5F728800DC7D7F /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C93D51B5F728800DC7D7F /* LoginViewController.m */; };
+		429C93D81B5F728800DC7D7F /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 429C93D61B5F728800DC7D7F /* LoginViewController.xib */; };
+		42A07FCE1B5F8B28000BC0D4 /* SliderButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A07FCB1B5F8B28000BC0D4 /* SliderButtonView.m */; };
+		42A07FCF1B5F8B28000BC0D4 /* SliderScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A07FCD1B5F8B28000BC0D4 /* SliderScrollView.m */; };
+		42A07FD21B5F8C78000BC0D4 /* SelectBidHallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A07FD11B5F8C78000BC0D4 /* SelectBidHallViewController.m */; };
+		42A07FD81B5F8CE2000BC0D4 /* BiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A07FD41B5F8CE2000BC0D4 /* BiaoTableViewCell.m */; };
+		42A07FD91B5F8CE2000BC0D4 /* BiaoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 42A07FD51B5F8CE2000BC0D4 /* BiaoTableViewCell.xib */; };
+		42A07FDA1B5F8CE2000BC0D4 /* TableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 42A07FD71B5F8CE2000BC0D4 /* TableView.m */; };
 		42AC27FF1B5CDF0800EB22E9 /* UIViewExt.m in Sources */ = {isa = PBXBuildFile; fileRef = 42AC27FE1B5CDF0800EB22E9 /* UIViewExt.m */; };
 		42CE87EF1B5CC2ED007B1EA0 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CE87EE1B5CC2ED007B1EA0 /* BaseViewController.m */; };
 		42CE87F21B5CC31C007B1EA0 /* BaseNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42CE87F11B5CC31C007B1EA0 /* BaseNavigationViewController.m */; };
@@ -172,6 +182,24 @@
 		429C31191B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedBiaoTableViewCell.m; sourceTree = "<group>"; };
 		429C311B1B5CDAE000F41D0E /* sepatorLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sepatorLine.h; sourceTree = "<group>"; };
 		429C311C1B5CDAE000F41D0E /* sepatorLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = sepatorLine.m; sourceTree = "<group>"; };
+		429C93851B5F3A6700DC7D7F /* MyQdaiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyQdaiViewController.h; sourceTree = "<group>"; };
+		429C93861B5F3A6700DC7D7F /* MyQdaiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyQdaiViewController.m; sourceTree = "<group>"; };
+		429C93BE1B5F5F7F00DC7D7F /* QdaiHomePageModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QdaiHomePageModel.h; sourceTree = "<group>"; };
+		429C93BF1B5F5F7F00DC7D7F /* QdaiHomePageModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QdaiHomePageModel.m; sourceTree = "<group>"; };
+		429C93D41B5F728800DC7D7F /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		429C93D51B5F728800DC7D7F /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		429C93D61B5F728800DC7D7F /* LoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		42A07FCA1B5F8B28000BC0D4 /* SliderButtonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderButtonView.h; sourceTree = "<group>"; };
+		42A07FCB1B5F8B28000BC0D4 /* SliderButtonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderButtonView.m; sourceTree = "<group>"; };
+		42A07FCC1B5F8B28000BC0D4 /* SliderScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SliderScrollView.h; sourceTree = "<group>"; };
+		42A07FCD1B5F8B28000BC0D4 /* SliderScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SliderScrollView.m; sourceTree = "<group>"; };
+		42A07FD01B5F8C78000BC0D4 /* SelectBidHallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectBidHallViewController.h; sourceTree = "<group>"; };
+		42A07FD11B5F8C78000BC0D4 /* SelectBidHallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectBidHallViewController.m; sourceTree = "<group>"; };
+		42A07FD31B5F8CE2000BC0D4 /* BiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BiaoTableViewCell.h; sourceTree = "<group>"; };
+		42A07FD41B5F8CE2000BC0D4 /* BiaoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BiaoTableViewCell.m; sourceTree = "<group>"; };
+		42A07FD51B5F8CE2000BC0D4 /* BiaoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BiaoTableViewCell.xib; sourceTree = "<group>"; };
+		42A07FD61B5F8CE2000BC0D4 /* TableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableView.h; sourceTree = "<group>"; };
+		42A07FD71B5F8CE2000BC0D4 /* TableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableView.m; sourceTree = "<group>"; };
 		42AC27FD1B5CDF0800EB22E9 /* UIViewExt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewExt.h; sourceTree = "<group>"; };
 		42AC27FE1B5CDF0800EB22E9 /* UIViewExt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIViewExt.m; sourceTree = "<group>"; };
 		42CE87ED1B5CC2ED007B1EA0 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
@@ -249,8 +277,7 @@
 				42229EE51B5E22E500304D95 /* MJExtensionConfig.h */,
 				42229EE61B5E22E500304D95 /* MJExtensionConfig.m */,
 				42229EC81B5E18E800304D95 /* MJExtension */,
-				42229E651B5E081800304D95 /* QdaiDataModel.h */,
-				42229E661B5E081800304D95 /* QdaiDataModel.m */,
+				429C93BD1B5F58F600DC7D7F /* 首页 */,
 			);
 			path = QdaiModel;
 			sourceTree = "<group>";
@@ -368,6 +395,38 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		429C93BD1B5F58F600DC7D7F /* 首页 */ = {
+			isa = PBXGroup;
+			children = (
+				42229E651B5E081800304D95 /* QdaiDataModel.h */,
+				42229E661B5E081800304D95 /* QdaiDataModel.m */,
+				429C93BE1B5F5F7F00DC7D7F /* QdaiHomePageModel.h */,
+				429C93BF1B5F5F7F00DC7D7F /* QdaiHomePageModel.m */,
+			);
+			name = "首页";
+			sourceTree = "<group>";
+		};
+		429C93D31B5F727900DC7D7F /* 登录 */ = {
+			isa = PBXGroup;
+			children = (
+				429C93D41B5F728800DC7D7F /* LoginViewController.h */,
+				429C93D51B5F728800DC7D7F /* LoginViewController.m */,
+				429C93D61B5F728800DC7D7F /* LoginViewController.xib */,
+			);
+			path = "登录";
+			sourceTree = "<group>";
+		};
+		42A07FC91B5F8B28000BC0D4 /* 按钮滑动 */ = {
+			isa = PBXGroup;
+			children = (
+				42A07FCA1B5F8B28000BC0D4 /* SliderButtonView.h */,
+				42A07FCB1B5F8B28000BC0D4 /* SliderButtonView.m */,
+				42A07FCC1B5F8B28000BC0D4 /* SliderScrollView.h */,
+				42A07FCD1B5F8B28000BC0D4 /* SliderScrollView.m */,
+			);
+			path = "按钮滑动";
+			sourceTree = "<group>";
+		};
 		42CE87E41B5CC218007B1EA0 /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
@@ -392,6 +451,8 @@
 		42CE87E61B5CC218007B1EA0 /* 我的口袋 */ = {
 			isa = PBXGroup;
 			children = (
+				429C93851B5F3A6700DC7D7F /* MyQdaiViewController.h */,
+				429C93861B5F3A6700DC7D7F /* MyQdaiViewController.m */,
 			);
 			path = "我的口袋";
 			sourceTree = "<group>";
@@ -399,6 +460,13 @@
 		42CE87E71B5CC218007B1EA0 /* 选标大厅 */ = {
 			isa = PBXGroup;
 			children = (
+				42A07FD31B5F8CE2000BC0D4 /* BiaoTableViewCell.h */,
+				42A07FD41B5F8CE2000BC0D4 /* BiaoTableViewCell.m */,
+				42A07FD51B5F8CE2000BC0D4 /* BiaoTableViewCell.xib */,
+				42A07FD61B5F8CE2000BC0D4 /* TableView.h */,
+				42A07FD71B5F8CE2000BC0D4 /* TableView.m */,
+				42A07FD01B5F8C78000BC0D4 /* SelectBidHallViewController.h */,
+				42A07FD11B5F8C78000BC0D4 /* SelectBidHallViewController.m */,
 			);
 			path = "选标大厅";
 			sourceTree = "<group>";
@@ -425,6 +493,7 @@
 				42CE87F31B5CC50C007B1EA0 /* QdaiPrefixHeader.pch */,
 				42CE87F41B5CC572007B1EA0 /* QdaiDefine.h */,
 				42CE87EA1B5CC2BC007B1EA0 /* Other */,
+				42A07FC91B5F8B28000BC0D4 /* 按钮滑动 */,
 				42CE87EB1B5CC2BC007B1EA0 /* SelfBase */,
 			);
 			path = SelfDefine;
@@ -517,6 +586,7 @@
 		42E04ADE1B5C89AF00F18B6B /* QdaiV */ = {
 			isa = PBXGroup;
 			children = (
+				429C93D31B5F727900DC7D7F /* 登录 */,
 				42229E681B5E09CE00304D95 /* 网络请求 */,
 				42229E641B5E079B00304D95 /* QdaiModel */,
 				42CE881B1B5CD325007B1EA0 /* 1.jpg */,
@@ -659,9 +729,11 @@
 			files = (
 				42E04AEE1B5C89B300F18B6B /* Main.storyboard in Resources */,
 				42CE881C1B5CD325007B1EA0 /* 1.jpg in Resources */,
+				429C93D81B5F728800DC7D7F /* LoginViewController.xib in Resources */,
 				42E04AF31B5C89B400F18B6B /* LaunchScreen.xib in Resources */,
 				42E04AF01B5C89B400F18B6B /* Images.xcassets in Resources */,
 				42229EC11B5E0ADD00304D95 /* 37x-Checkmark.png in Resources */,
+				42A07FD91B5F8CE2000BC0D4 /* BiaoTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -688,12 +760,14 @@
 				429C311A1B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.m in Sources */,
 				42229EE01B5E18E800304D95 /* NSObject+MJProperty.m in Sources */,
 				42229E901B5E0A9200304D95 /* SDWebImageDownloader.m in Sources */,
+				429C93871B5F3A6700DC7D7F /* MyQdaiViewController.m in Sources */,
 				42229E671B5E081800304D95 /* QdaiDataModel.m in Sources */,
 				42229E8E1B5E0A9200304D95 /* SDWebImageCompat.m in Sources */,
 				42E04AE51B5C89B000F18B6B /* AppDelegate.m in Sources */,
 				42229EC41B5E0ADD00304D95 /* QdaiNetReachAbility.m in Sources */,
 				42CE88111B5CC9AA007B1EA0 /* TAAbstractDotView.m in Sources */,
 				42CE87F21B5CC31C007B1EA0 /* BaseNavigationViewController.m in Sources */,
+				42A07FCF1B5F8B28000BC0D4 /* SliderScrollView.m in Sources */,
 				42229E9A1B5E0A9200304D95 /* UIView+WebCacheOperation.m in Sources */,
 				42AC27FF1B5CDF0800EB22E9 /* UIViewExt.m in Sources */,
 				42229EDA1B5E18E800304D95 /* MJConst.m in Sources */,
@@ -701,10 +775,12 @@
 				42229E991B5E0A9200304D95 /* UIImageView+WebCache.m in Sources */,
 				42229EC21B5E0ADD00304D95 /* MBProgressHUD.m in Sources */,
 				42229E971B5E0A9200304D95 /* UIImage+WebP.m in Sources */,
+				42A07FDA1B5F8CE2000BC0D4 /* TableView.m in Sources */,
 				42229EE71B5E22E500304D95 /* MJExtensionConfig.m in Sources */,
 				42229E8D1B5E0A9200304D95 /* SDImageCache.m in Sources */,
 				42229EDE1B5E18E800304D95 /* NSObject+MJCoding.m in Sources */,
 				42CE87EF1B5CC2ED007B1EA0 /* BaseViewController.m in Sources */,
+				42A07FD81B5F8CE2000BC0D4 /* BiaoTableViewCell.m in Sources */,
 				42229EDB1B5E18E800304D95 /* MJFoundation.m in Sources */,
 				42229E961B5E0A9200304D95 /* UIImage+MultiFormat.m in Sources */,
 				42229E911B5E0A9200304D95 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -714,9 +790,13 @@
 				42CE88141B5CC9AA007B1EA0 /* TAPageControl.m in Sources */,
 				42CE88151B5CC9AA007B1EA0 /* SDCollectionViewCell.m in Sources */,
 				42CE881A1B5CC9D8007B1EA0 /* HomePageTableViewController.m in Sources */,
+				42A07FCE1B5F8B28000BC0D4 /* SliderButtonView.m in Sources */,
 				42229E8C1B5E0A9200304D95 /* NSData+ImageContentType.m in Sources */,
 				42CE87F71B5CC795007B1EA0 /* BaseTableViewController.m in Sources */,
+				429C93C01B5F5F7F00DC7D7F /* QdaiHomePageModel.m in Sources */,
 				42CE87FA1B5CC954007B1EA0 /* UIView+Addition.m in Sources */,
+				42A07FD21B5F8C78000BC0D4 /* SelectBidHallViewController.m in Sources */,
+				429C93D71B5F728800DC7D7F /* LoginViewController.m in Sources */,
 				42229EBE1B5E0ADD00304D95 /* AFURLRequestSerialization.m in Sources */,
 				42CE88121B5CC9AA007B1EA0 /* TAAnimatedDotView.m in Sources */,
 				42229E8F1B5E0A9200304D95 /* SDWebImageDecoder.m in Sources */,

@@ -65,15 +65,16 @@
             _badMoneyLabel.text = model.contentStr.BadAmount;
             _badMoneyPercentLabel.text = model.contentStr.BadRates;
         } else {
-            NSLog(@"12312312312312");
         }
         
-    } withAnimation:YES];
+    } failure:^{
+        
+    }  withAnimation:YES];
 }
 
 -(void)tableView:(UITableView *)tableView willDisplayCell:(UITableViewCell *)cell forRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    cell.backgroundColor = QDAI_THEME_COLOR;
+    cell.backgroundColor = APP_THEME_COLOR;
     if (indexPath.row != 0 && indexPath.row != 12) {
         if ([cell respondsToSelector:@selector(setSeparatorInset:)]) {
             [cell setSeparatorInset:UIEdgeInsetsZero];

@@ -8,8 +8,13 @@
 
 #import "HomePageTableViewController.h"
 #import "SDCycleScrollView.h"
+#import "QdaiHomePageModel.h"
+
+#import "LoginViewController.h"
 
 @interface HomePageTableViewController ()
+@property (weak, nonatomic) IBOutlet UILabel *investAllLabel;
+@property (weak, nonatomic) IBOutlet UILabel *gainAllLabel;
 
 @end
 
@@ -17,8 +22,8 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.tableView.backgroundColor = QDAI_BACK_COLOR;
-    
+    self.tableView.backgroundColor = APP_BACK_COLOR;
+    [self getDataRequest];
     NSArray *imageArray = @[[UIImage imageNamed:@"1.jpg"],
                             [UIImage imageNamed:@"1.jpg"],
                             [UIImage imageNamed:@"1.jpg"],
@@ -29,7 +34,34 @@
     imageCycleView.pageControlAliment = SDCycleScrollViewPageContolAlimentCenter;
     [_topView addSubview:imageCycleView];
     
+    LoginViewController *l = [[LoginViewController alloc] init];
+    [self.navigationController pushViewController:l animated:YES];
 }
+
+
+#pragma ############ 获取口贷数据请求
+
+- (void)getDataRequest {
+    [NetManager GETDataWithParams:nil withUrl:@"index/indexdata" success:^(id object) {
+        QdaiHomePageModel *model = [QdaiHomePageModel objectWithKeyValues:object];
+        _investAllLabel.text = model.contentStr.InvestAll;
+        _gainAllLabel.text = model.contentStr.GainAll;
+        
+    } failure:^{
+        
+    } withAnimation:YES];
+}
+
+#pragma ############ 获取轮播图片请求
+- (void)getImageRequest {
+    [NetManager GETDataWithParams:nil withUrl:@"" success:^(id object) {
+        
+    } failure:^{
+        
+    } withAnimation:YES];
+}
+
+#pragma ########### tableView 的代理方法
 
 - (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
     if (section == 0 || section == 4) {
@@ -77,5 +109,9 @@
     }
 }
 
+//- (void)viewWillAppear:(BOOL)animated {
+//    [super viewWillAppear:animated];
+//    self.navigationController.navigationBarHidden = NO;
+//}
 
 @end

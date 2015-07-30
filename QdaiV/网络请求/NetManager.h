@@ -11,8 +11,34 @@
 
 @interface NetManager : NSObject
 
+/**
+ *  GET 请求
+ *
+ *  @param params        拼接字典
+ *  @param url           子Url
+ *  @param success       成功回调 Blcok
+ *  @param failure       失败回调 Blcok
+ *  @param animationFlag 动画参数 YES 为开启动画 NO 为不开启动画
+ */
++ (void)GETDataWithParams:(NSMutableDictionary *)params
+                  withUrl:(NSString *)url
+                  success:(void (^)(id object))success
+                  failure:(dispatch_block_t)failure
+            withAnimation:(BOOL)animationFlag;
 
-+ (void)GETDataWithParams:(NSMutableDictionary *)params withUrl:(NSString *)url success:(void (^)(id object))success withAnimation:(BOOL)animationFlag;
-+ (void)POSTDataWithParams:(NSMutableDictionary *)params withUrl:(NSString *)url success:(void (^)(id object))success withAnimation:(BOOL)animationFlag;
+/**
+ *  POST 请求
+ *
+ *  @param params        拼接字典
+ *  @param url           子Url
+ *  @param success       成功回调 Blcok
+ *  @param failure       失败回调 Blcok
+ *  @param animationFlag 动画参数 YES 为开启动画 NO 为不开启动画
+ */
++ (void)POSTDataWithParams:(NSMutableDictionary *)params
+                   withUrl:(NSString *)url
+                   success:(void (^)(id object))success
+                   failure:(dispatch_block_t)failure
+             withAnimation:(BOOL)animationFlag;
 
 @end
