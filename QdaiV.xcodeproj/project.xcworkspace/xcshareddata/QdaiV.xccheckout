@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>BF1AFA2F-90FA-498E-9236-7E0880D27AA6</string>
+	<key>IDESourceControlProjectName</key>
+	<string>QdaiV</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>BE020F83255E6F774C36DE782C193F4DF2E4F366</key>
+		<string>https://github.com/myafer/QdaiVV.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>QdaiV.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>BE020F83255E6F774C36DE782C193F4DF2E4F366</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/myafer/QdaiVV.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BE020F83255E6F774C36DE782C193F4DF2E4F366</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BE020F83255E6F774C36DE782C193F4DF2E4F366</string>
+			<key>IDESourceControlWCCName</key>
+			<string>QdaiV</string>
+		</dict>
+	</array>
+</dict>
+</plist>

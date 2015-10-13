@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "LCPanNavigationController.h"
 
 @interface BaseNavigationViewController : UINavigationController
 

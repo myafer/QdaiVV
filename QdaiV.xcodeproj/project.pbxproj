@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		420B00001BA6AB790062B041 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 420BFFFF1BA6AB790062B041 /* UINavigationController+FDFullscreenPopGesture.m */; };
 		42229E671B5E081800304D95 /* QdaiDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 42229E661B5E081800304D95 /* QdaiDataModel.m */; };
 		42229E8B1B5E0A9200304D95 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 42229E6B1B5E0A9200304D95 /* MKAnnotationView+WebCache.m */; };
 		42229E8C1B5E0A9200304D95 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 42229E6D1B5E0A9200304D95 /* NSData+ImageContentType.m */; };
@@ -46,6 +47,9 @@
 		42229EE01B5E18E800304D95 /* NSObject+MJProperty.m in Sources */ = {isa = PBXBuildFile; fileRef = 42229ED71B5E18E800304D95 /* NSObject+MJProperty.m */; };
 		42229EE11B5E18E800304D95 /* NSString+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 42229ED91B5E18E800304D95 /* NSString+MJExtension.m */; };
 		42229EE71B5E22E500304D95 /* MJExtensionConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 42229EE61B5E22E500304D95 /* MJExtensionConfig.m */; };
+		42994AF31BA6926D0066D9CF /* LCPanGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 42994AEE1BA6926D0066D9CF /* LCPanGestureRecognizer.m */; };
+		42994AF41BA6926D0066D9CF /* LCPanNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42994AF01BA6926D0066D9CF /* LCPanNavigationController.m */; };
+		42994AF51BA6926D0066D9CF /* UIView+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 42994AF21BA6926D0066D9CF /* UIView+Snapshot.m */; };
 		429C311A1B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C31191B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.m */; };
 		429C311D1B5CDAE000F41D0E /* sepatorLine.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C311C1B5CDAE000F41D0E /* sepatorLine.m */; };
 		429C93871B5F3A6700DC7D7F /* MyQdaiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 429C93861B5F3A6700DC7D7F /* MyQdaiViewController.m */; };
@@ -97,6 +101,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		420BFFFE1BA6AB790062B041 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		420BFFFF1BA6AB790062B041 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		42229E651B5E081800304D95 /* QdaiDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QdaiDataModel.h; sourceTree = "<group>"; };
 		42229E661B5E081800304D95 /* QdaiDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QdaiDataModel.m; sourceTree = "<group>"; };
 		42229E6A1B5E0A9200304D95 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -178,6 +184,12 @@
 		42229ED91B5E18E800304D95 /* NSString+MJExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MJExtension.m"; sourceTree = "<group>"; };
 		42229EE51B5E22E500304D95 /* MJExtensionConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJExtensionConfig.h; sourceTree = "<group>"; };
 		42229EE61B5E22E500304D95 /* MJExtensionConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MJExtensionConfig.m; sourceTree = "<group>"; };
+		42994AED1BA6926D0066D9CF /* LCPanGestureRecognizer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanGestureRecognizer.h; sourceTree = "<group>"; };
+		42994AEE1BA6926D0066D9CF /* LCPanGestureRecognizer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanGestureRecognizer.m; sourceTree = "<group>"; };
+		42994AEF1BA6926D0066D9CF /* LCPanNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LCPanNavigationController.h; sourceTree = "<group>"; };
+		42994AF01BA6926D0066D9CF /* LCPanNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LCPanNavigationController.m; sourceTree = "<group>"; };
+		42994AF11BA6926D0066D9CF /* UIView+Snapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Snapshot.h"; sourceTree = "<group>"; };
+		42994AF21BA6926D0066D9CF /* UIView+Snapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Snapshot.m"; sourceTree = "<group>"; };
 		429C31181B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectedBiaoTableViewCell.h; sourceTree = "<group>"; };
 		429C31191B5CD9AE00F41D0E /* SelectedBiaoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectedBiaoTableViewCell.m; sourceTree = "<group>"; };
 		429C311B1B5CDAE000F41D0E /* sepatorLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sepatorLine.h; sourceTree = "<group>"; };
@@ -395,6 +407,19 @@
 			path = MJExtension;
 			sourceTree = "<group>";
 		};
+		42994AEC1BA6926D0066D9CF /* PanNavigationController */ = {
+			isa = PBXGroup;
+			children = (
+				42994AED1BA6926D0066D9CF /* LCPanGestureRecognizer.h */,
+				42994AEE1BA6926D0066D9CF /* LCPanGestureRecognizer.m */,
+				42994AEF1BA6926D0066D9CF /* LCPanNavigationController.h */,
+				42994AF01BA6926D0066D9CF /* LCPanNavigationController.m */,
+				42994AF11BA6926D0066D9CF /* UIView+Snapshot.h */,
+				42994AF21BA6926D0066D9CF /* UIView+Snapshot.m */,
+			);
+			path = PanNavigationController;
+			sourceTree = "<group>";
+		};
 		429C93BD1B5F58F600DC7D7F /* 首页 */ = {
 			isa = PBXGroup;
 			children = (
@@ -528,6 +553,9 @@
 		42CE87EC1B5CC2BC007B1EA0 /* ThirdSupporting */ = {
 			isa = PBXGroup;
 			children = (
+				420BFFFE1BA6AB790062B041 /* UINavigationController+FDFullscreenPopGesture.h */,
+				420BFFFF1BA6AB790062B041 /* UINavigationController+FDFullscreenPopGesture.m */,
+				42994AEC1BA6926D0066D9CF /* PanNavigationController */,
 				42229E691B5E0A9200304D95 /* SDWebImage */,
 				42CE87FE1B5CC9AA007B1EA0 /* SDCycleScrollView */,
 			);
@@ -768,6 +796,7 @@
 				42CE88111B5CC9AA007B1EA0 /* TAAbstractDotView.m in Sources */,
 				42CE87F21B5CC31C007B1EA0 /* BaseNavigationViewController.m in Sources */,
 				42A07FCF1B5F8B28000BC0D4 /* SliderScrollView.m in Sources */,
+				420B00001BA6AB790062B041 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				42229E9A1B5E0A9200304D95 /* UIView+WebCacheOperation.m in Sources */,
 				42AC27FF1B5CDF0800EB22E9 /* UIViewExt.m in Sources */,
 				42229EDA1B5E18E800304D95 /* MJConst.m in Sources */,
@@ -783,6 +812,7 @@
 				42A07FD81B5F8CE2000BC0D4 /* BiaoTableViewCell.m in Sources */,
 				42229EDB1B5E18E800304D95 /* MJFoundation.m in Sources */,
 				42229E961B5E0A9200304D95 /* UIImage+MultiFormat.m in Sources */,
+				42994AF41BA6926D0066D9CF /* LCPanNavigationController.m in Sources */,
 				42229E911B5E0A9200304D95 /* SDWebImageDownloaderOperation.m in Sources */,
 				42FCC6271B5DF37000BB6B77 /* MoreViewController.m in Sources */,
 				42229E981B5E0A9200304D95 /* UIImageView+HighlightedWebCache.m in Sources */,
@@ -798,9 +828,11 @@
 				42A07FD21B5F8C78000BC0D4 /* SelectBidHallViewController.m in Sources */,
 				429C93D71B5F728800DC7D7F /* LoginViewController.m in Sources */,
 				42229EBE1B5E0ADD00304D95 /* AFURLRequestSerialization.m in Sources */,
+				42994AF51BA6926D0066D9CF /* UIView+Snapshot.m in Sources */,
 				42CE88121B5CC9AA007B1EA0 /* TAAnimatedDotView.m in Sources */,
 				42229E8F1B5E0A9200304D95 /* SDWebImageDecoder.m in Sources */,
 				42229EB91B5E0ADD00304D95 /* AFHTTPRequestOperationManager.m in Sources */,
+				42994AF31BA6926D0066D9CF /* LCPanGestureRecognizer.m in Sources */,
 				42E04AE81B5C89B100F18B6B /* QdaiV.xcdatamodeld in Sources */,
 				42E04AEB1B5C89B200F18B6B /* LaunchViewController.m in Sources */,
 				42229EBD1B5E0ADD00304D95 /* AFURLConnectionOperation.m in Sources */,
